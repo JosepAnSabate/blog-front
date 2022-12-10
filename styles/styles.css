@@ -1,0 +1,317 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+  background: rgb(250, 249, 247);
+  font-family: 'Noto Serif', serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap'); 
+
+p, a, ul{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #222;
+}
+
+.categories-button {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: #42e1d9;
+  border-radius: 50px;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  line-height: 26px;
+}
+
+.categories-container{
+  margin-left: 15px;
+}
+
+.post-subtitle{
+  margin-top: 5px;
+  margin-bottom: 35px;
+}
+
+.post-title{
+  padding-bottom: 10px;
+}
+
+.post-meta{
+  padding-top: 13px;
+}
+.ol-mod{
+    font-family: Georgia,Times New Roman,Times,serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.632;
+    letter-spacing: .1px;
+}
+.enllas{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: rgb(43, 67, 173);
+    text-decoration: underline;
+}
+.margin-li{
+  margin-left: 20pt;
+}
+.portada {
+  font-weight: 800;
+  font-family: 'Pangolin', cursive;
+  /* font-family: 'Girassol', cursive; */
+  color: rgb(204, 204, 8);
+  letter-spacing: .6px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width:3px;
+}
+.title-about {
+  font-size: 24px;
+}
+/* posts */
+.article-text{
+  color: #333;
+  font-family: Georgia,Times New Roman,Times,serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.632;
+  letter-spacing: .1px;
+  margin-bottom: 24px;
+  margin: 12px 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.titols-post {
+  margin-bottom: 10px;
+  font-family: GeoEditBold,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 250;
+  color: #000;
+}
+.titles-blog2{
+  font-weight: 700;
+  font-family: Georgia,Times New Roman,Times,serif;
+  color: #333;
+  font-size: 19px;
+  line-height: 1.632;
+  box-sizing: inherit;
+  letter-spacing: .1px;
+
+}
+.titols-l {
+  margin: 0.5rem 0;
+}
+.post-meta-blog {
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #868e96;
+}
+
+.peu-foto-sup {
+  font-family: 'PT Serif', serif;
+  font-size: 17px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.1px;
+  line-height: 50%;
+}
+
+
+.peu-foto-inf {
+  color: #555;
+  font-family: GeoBrandRegular,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1;
+  text-transform: uppercase;
+  
+}
+
+#mapid { 
+  height: 180px;
+  border: 6px solid rgb(185, 196, 31);
+  
+  border-radius: 20px 50px;
+  margin: auto;/* centra mapa */
+  margin-top: 35px;
+}
+  
+nav li{
+  margin-left: 20px;
+}
+nav ul{
+  margin-left: 40px;
+}
+nav h1{
+  font-size: 3em;
+}
+nav p, nav a{
+  color: rgb(10, 10, 10);
+  font-weight: 800;
+} 
+.masthead {
+  height: 100vh;
+  min-height: 200px;
+  background-image: url('iss2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer{
+  color: #777;
+  text-align: center;
+  margin: 80px auto 20px;
+}
+h2{
+  margin-bottom: 40px;
+}
+h3{
+  font-weight: 350; 
+  margin: 0 0 10px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.55rem;
+  line-height: 1.2;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.content{
+  margin-left: 20px;
+}
+
+textarea{
+  height: 120px;
+}
+/* .create-blog button{
+  margin-top: 20px;
+  background: crimson;
+  color: white;
+  padding: 6px;
+  border: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+} */
+  
+/* scroll  header*/
+
+html {
+  scroll-behavior: smooth;
+}
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-down {
+  height: 50px;
+  width: 30px;
+  border: 3px solid rgb(255, 255, 255);
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border: 2px solid rgb(255, 255, 255);
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+  top: 30%;
+  animation-delay: 0.3s;
+  /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+@keyframes scroll-down {
+  0% {
+    /* top:20%; */
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
+  }
+}
+
+/* starwars */
+
+/* body { */
+  /* push down the the wrapper by half the page */
+  /* margin: 50% 0 0 0;
+  position: relative; */
+/* } */
+body::after {
+  content: '';
+  /* position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50%; */
+  /* background to fade out the text as it goes up */
+  /* background: linear-gradient(180deg, rgba(20,20,20,1) 40%, rgba(20,20,20,0) 100%); */
+}
+.wrapper {
+  display: flex;
+  /* height: 100%; */
+  width: 100%;
+  margin: 0 auto;
+  /* perspective gives us a 3d space within the element to work with*/
+  /* perspective also has the effect of pushing the content "down" */
+  perspective: 450px;
+  margin: 50% 0 0 0; 
+  justify-content: center;
+  
+}
+.scroll-text {
+  color: #ffc909;
+  font-size: 3vw;
+  line-height: 1.5em;
+  font-weight: bold;
+  text-align: justify;
+  position: relative;
+  animation: scroll 10s linear ;
+  /* animation-delay: 2s; */
+}
+.title-star {
+  text-align: center;
+}
+
+@keyframes scroll {
+	from { top: -200px; transform: translateZ(0) rotateX(20deg); }
+	to { top: -2500px; transform: translateZ(-800px) rotateX(21deg); }
+}
+
+/* codeeditor */
